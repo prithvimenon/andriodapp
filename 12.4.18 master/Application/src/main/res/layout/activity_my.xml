@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.android.bluetoothlegatt.MyActivity">
+    <ProgressBar
+        android:id="@+id/pbar"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="80dp"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
+        android:max="100"
+        android:progress="75"
+        android:progressTint="?android:attr/colorFocusedHighlight"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbar2"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="160dp"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
+        android:max="200"
+        android:progress="75"
+        android:progressTint="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbar3"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="240dp"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
+        android:max="400"
+        android:progress="75"
+        android:progressTint="@android:color/holo_purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ProgressBar
+        android:id="@+id/pbar4"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="15dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="320dp"
+        android:background="@android:color/background_dark"
+        android:backgroundTint="@android:color/background_dark"
+        android:max="800"
+        android:progress="75"
+        android:progressTint="?android:attr/colorForeground"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/bike"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="65dp"
+        android:adjustViewBounds="false"
+        android:drawable="@drawable/bicycle"
+        android:src="@drawable/bicycle"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/bikered"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="145dp"
+        android:adjustViewBounds="false"
+        android:drawable="@drawable/bikered"
+        android:src="@drawable/bikered"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/bikepurple"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="225dp"
+        android:adjustViewBounds="false"
+        android:drawable="@drawable/bikepurple"
+        android:src="@drawable/bikepurple"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <ImageView
+        android:id="@+id/bikeblack"
+        android:layout_width="37dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="225dp"
+        android:layout_marginTop="305dp"
+        android:adjustViewBounds="false"
+        android:drawable="@drawable/bikeblack"
+        android:src="@drawable/bikeblack"
+        android:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="60dp"
+        android:text="Novice"
+        android:textColor="@android:color/holo_blue_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="164dp"
+        android:layout_marginTop="140dp"
+        android:text="Beginner"
+        android:textColor="@android:color/holo_red_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="220dp"
+        android:text="Advanced"
+        android:textColor="@android:color/holo_purple"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="168dp"
+        android:layout_marginTop="300dp"
+        android:text="Master"
+        android:textColor="@android:color/background_dark"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

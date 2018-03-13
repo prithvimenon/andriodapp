@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/latitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Latitude"
+        android:textSize="18sp" android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/latitude_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/latitude"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/latitude"
+        android:textSize="16sp" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/latitude" />
+    <TextView
+        android:id="@+id/longitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/Longitude"
+        android:layout_marginTop="24dp"
+        android:textSize="18sp" android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/longitude_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/longitude"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/longitude"
+        android:textSize="16sp" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/longitude"/>
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="48dp"
+        android:text="@string/Distance"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/distance_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/distance"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/distance"
+        android:textSize="16sp" android:layout_marginStart="10dp" android:layout_toEndOf="@+id/distance"/>
+
+    <TextView
+        android:id="@+id/database"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/distance_textview"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="34dp"
+        android:text="textview" />
+
+    <Button
+        android:id="@+id/graphbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="55dp"
+        android:text="Go to graph" />
+
+    <Button
+        android:id="@+id/today_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/graphbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="56dp"
+        android:text="go to today's distance" />
+
+    <Button
+        android:id="@+id/monthly_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/today_distance"
+        android:layout_alignLeft="@+id/graphbutton"
+        android:layout_alignStart="@+id/graphbutton"
+        android:layout_marginBottom="24dp"
+        android:text="Go to Monthly distance" />
+
+    <Button
+        android:id="@+id/total_distance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/longitude_textview"
+        android:layout_alignRight="@+id/longitude_textview"
+        android:layout_below="@+id/database"
+        android:text="Total distance" />
+
+
+</RelativeLayout>

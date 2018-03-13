@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="android.arch.paging:common:1.0.0-alpha6@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.paging/common/1.0.0-alpha6/9e8b1cf976277fb0b6c21c92c40084d866c1c65b/common-1.0.0-alpha6.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/android.arch.paging/common/1.0.0-alpha6/62d8a301f7fed8801d3a65e54ebc048d205d69f/common-1.0.0-alpha6-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
