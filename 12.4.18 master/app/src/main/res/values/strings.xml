@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Smart Alarm</string>
+    <string name="Latitude">Latitude:</string>
+    <string name="Longitude">Longitude:</string>
+    <string name="Distance">Distance:</string>
+    <string name="title_activity_bar_graph">BarGraph</string>
+    <string name="title_activity_total_distance">Total_distance</string>
+</resources>
